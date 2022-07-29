@@ -1,0 +1,27 @@
+html,body
+{
+display: table;    
+font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+margin: auto 0;
+}
+._strip{
+    width: 100%!important;
+   background-color: black!important;
+}
+br{
+    display: none;
+}
+.Logbook_stuff
+{   background-color: blue!important;/*what ever color this should be*/
+    height: calc(150vh + 7px);
+}
+.footer
+{
+display: flex;/*to make them look responsive*/
+justify-items: center;
+}
+.home,.logbook,.jobs,.more{
+    margin: 11px 9em+70px;
+    height: 40px;
+    width: 40px;
+}
